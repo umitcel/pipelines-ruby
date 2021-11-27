@@ -16,8 +16,8 @@ steps:
 #    bundle install --retry=3 --jobs=4
 #  displayName: 'bundle install'
 
-- script: bundle update --bundler
-  displayName: 'bundle update --bundler'
+#- script: bundle update --bundler
+#  displayName: 'bundle update --bundler'
 
 - script: gem install rails && rails -v
   displayName: 'gem install rails'
