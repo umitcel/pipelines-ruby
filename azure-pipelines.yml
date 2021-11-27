@@ -11,10 +11,10 @@ steps:
   inputs:
     versionSpec: '>= 2.5'
 
-- script: |
-    gem install bundler
-    bundle install --retry=3 --jobs=4
-  displayName: 'bundle install'
+#- script: |
+#    gem install bundler
+#    bundle install --retry=3 --jobs=4
+#  displayName: 'bundle install'
 
 - script: bundle update --bundler
   displayName: 'bundle update --bundler'
